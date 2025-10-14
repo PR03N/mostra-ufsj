@@ -184,3 +184,26 @@ main {
     height: var(--banner-big); /* ou o tamanho que quiser */
   }
 }
+
+.wrapper {
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 400px;
+  width: 100%;
+}
+
+.div-test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  color: green;
+}
+
+.div-test img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #a3a3a3ff;
+  object-fit: cover;
+}
